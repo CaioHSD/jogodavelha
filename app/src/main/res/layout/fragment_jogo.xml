@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.JogoFragment"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:id="@+id/linearJog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_jogador_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:text="@string/jogador_1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_weight="5"
+        android:padding="5dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tvPlacarJog1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:text="@string/placar_j1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        />
+
+
+        <LinearLayout
+            android:id="@+id/linearJog2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_jogador_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:text="@string/jogador_2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_weight="5"
+                android:padding="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tvPlacarJog2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:text="@string/placar_j2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+
+                />
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearVelha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_velha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:text="@string/nome_velha"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="5"
+            android:padding="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvPlacarVelha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:text="@string/placar_velha"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:id="@+id/linearRodadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvNomeRodadas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:text="@string/nome_rodadas"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="5"
+            android:padding="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvNumRodadas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:text="@string/qtd_rodadas"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+
+            />
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/bt00"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            />
+        <Button
+            android:id="@+id/bt01"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:id="@+id/bt02"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+
+            />
+
+
+    </TableRow>
+
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                />
+            <Button
+                android:id="@+id/bt11"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                />
+
+            <Button
+                android:id="@+id/bt12"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                />
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/bt20"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                />
+            <Button
+                android:id="@+id/bt21"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                />
+
+            <Button
+                android:id="@+id/bt22"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+    </LinearLayout>
+
+
+
